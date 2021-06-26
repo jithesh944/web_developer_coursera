@@ -2,20 +2,19 @@
     box-sizing: border-box;
 }
 
-
 .heading{
     color: blueviolet;
     font-size: 28px;
     text-align: center;
     margin: 6px;
 }
+
 .row {
     display: flex;
     flex-wrap: wrap;
     background-color:rgb(211, 169, 147);
-    /* font-size: 14px; */
-    /*text-align: right;*/
 }
+
 .column{
     color: rgb(216 216 204);
     font-size: 20px;
@@ -35,14 +34,8 @@
     width: min-content;
     margin-top: -23px;
     margin-inline-start: auto;
-    /* position: absolute; */
-    /* top: -4px;
-    right: 0; */
 }
-/* .para{
-    position: absolute;
-    top:40px
-} */
+
 
 @media(min-width : 992px){
     .column{
@@ -70,32 +63,3 @@
         flex : 100%;
     }
 }
-    
-}
-
-
-/* @media (min-width : 992px){
-    .column{
-        float: left;
-        width:auto;
-    }
-}
-@media (min-width : 768px) and (max-width : 991px ){
-    .column{
-        float: left;
-        width: 46%;
-    }
-    #third{
-        float: left;
-        width: 97%;
-    }
-
-}
-@media (max-width : 767px){
-        .column{
-            float: left;
-            width: 97%;
-        }
-} */
-
-
