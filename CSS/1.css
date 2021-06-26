@@ -33,6 +33,8 @@
     background-color: beige;
     border-style: hidden;
     width: min-content;
+    margin-top: -23px;
+    margin-inline-start: auto;
     /* position: absolute; */
     /* top: -4px;
     right: 0; */
