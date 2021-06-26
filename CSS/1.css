@@ -24,7 +24,8 @@
     margin: 10px;
     background-color: chocolate;
     border-color: black;
-    /* padding: 3px; */
+    /* padding: 0px; */
+    position: relative;
 }
 
 .h3{
@@ -32,8 +33,14 @@
     background-color: beige;
     border-style: hidden;
     width: min-content;
-    position: static;
+    /* position: absolute; */
+    /* top: -4px;
+    right: 0; */
 }
+/* .para{
+    position: absolute;
+    top:40px
+} */
 
 @media(min-width : 992px){
     .column{
