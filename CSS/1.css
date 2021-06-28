@@ -12,14 +12,14 @@
 .row {
     display: flex;
     flex-wrap: wrap;
-    background-color:rgb(211, 169, 147);
+    /* background-color:rgb(211, 169, 147); */
 }
 
 .column{
     color: rgb(216 216 204);
     font-size: 20px;
     border-style: solid;
-    border-width: 3px;
+    border-width: 2px;
     margin: 10px;
     background-color: chocolate;
     border-color: black;
@@ -28,14 +28,25 @@
 }
 
 .h3{
-    box-sizing: content-box;
+    box-sizing: border-box;
     background-color: beige;
-    border-style: hidden;
-    width: min-content;
+    /* border-style: hidden; */
+    width: max-content;
     margin-top: -23px;
     margin-inline-start: auto;
+    border-bottom: solid;
+    border-left-style: solid;
+    color: black;
+    border-width: 2px;
 }
-
+#first{
+    background-color: aquamarine;
+}
+#second{
+    background-color: rgb(100, 111, 121);
+    color: rgb(246, 248, 250);
+    border-color: black;
+}
 
 @media(min-width : 992px){
     .column{
