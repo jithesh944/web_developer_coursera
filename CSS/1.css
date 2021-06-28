@@ -31,13 +31,14 @@
     box-sizing: border-box;
     background-color: beige;
     /* border-style: hidden; */
-    width: max-content;
+    width: 200px;
     margin-top: -23px;
     margin-inline-start: auto;
     border-bottom: solid;
     border-left-style: solid;
     color: black;
     border-width: 2px;
+    text-align:center;
 }
 #first{
     background-color: aquamarine;
